@@ -67,9 +67,17 @@ body{
     margin-bottom: 2.5%;
   }
 
-  div{
+  .header{
     margin-top: 2.5%;
     margin-bottom: 2.5%;
+
+    img{
+      filter: drop-shadow(0 0 0.5em $color1);
+      margin: 1.5% 0;
+    }
+  }
+
+  div{
 
     &.research{
       margin-top: 5%;
@@ -81,7 +89,7 @@ body{
       border-top: .25em $color3 dashed;
     }
 
-    &.dev{
+    &.idea{
       margin-top: 7.5%;
       border-top: .25em $color4 dashed;
     }
@@ -196,7 +204,7 @@ body{
 
 }
 
-.dev{
+.idea{
   color: $color4;
 
   h4{
@@ -297,16 +305,12 @@ body{
     color: $color1;
   }
 
-  img{
-    filter: drop-shadow(0 0 0.5em $color1);
-    margin: 1.5% 0;
-  }
-
 }
 
   .gallery{
     a{
       display: block;
+      padding-bottom: 2.5%;
 
       img{
         display: block;
