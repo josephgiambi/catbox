@@ -1,0 +1,318 @@
+// Century Gothic Pro Bold
+// font-family: century-gothic, sans-serif;
+// font-weight: 700;
+// font-style: normal;
+//
+// Century Gothic Pro Bold Italic
+// font-family: century-gothic, sans-serif;
+// font-weight: 700;
+// font-style: italic;
+//
+// Century Gothic Pro Italic
+// font-family: century-gothic, sans-serif;
+// font-weight: 400;
+// font-style: italic;
+//
+// Century Gothic Pro Regular
+// font-family: century-gothic, sans-serif;
+// font-weight: 400;
+// font-style: normal;
+
+$color1: #c780e8;
+$color2: #9d94ff;
+$color3: #59adf6;
+$color4: #08cad1;
+$color5: #42d6a4;
+$color6: #f8f38d;
+$color7: #ffb480;
+$color8: #ff6961;
+
+body{
+  font-family: century-gothic, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  background-color: #fff;
+  background-color: #ffffff;
+  background-image:  linear-gradient(#c780e815 1.5px, transparent 1.5px), linear-gradient(to right, #c780e815 1.5px, #ffffff 1.5px);
+  background-size: 30px 30px;
+  background-attachment: fixed;
+  height: 100vh;
+
+  h1{
+    font-weight: 700;
+    color: $color1;
+    font-size: 5.5em;
+  }
+
+  h2{
+    font-size: 1em;
+    font-weight: 700;
+  }
+
+  h3{
+    font-weight: 700;
+    font-size: 2em;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+  }
+
+  h4{
+    padding-left: .5em;
+  }
+
+  p{
+    color: #000;
+    line-height: 2em;
+    margin-bottom: 2.5%;
+  }
+
+  div{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+
+    &.research{
+      margin-top: 5%;
+      border-top: .25em $color2 dashed;
+    }
+
+    &.brainstorming{
+      margin-top: 7.5%;
+      border-top: .25em $color3 dashed;
+    }
+
+    &.dev{
+      margin-top: 7.5%;
+      border-top: .25em $color4 dashed;
+    }
+
+    &.concept{
+      margin-top: 7.5%;
+      border-top: .25em $color5 dashed;
+    }
+
+    &.proto{
+      margin-top: 7.5%;
+      border-top: .25em $color6 dashed;
+    }
+
+    &.user{
+      margin-top: 7.5%;
+      border-top: .25em $color7 dashed;
+    }
+
+    &.eval{
+      margin-top: 7.5%;
+      border-top: .25em $color8 dashed;
+    }
+
+    &.final{
+      margin-top: 7.5%;
+      padding-bottom: 5%;
+      border-top: .25em $color1 dashed;
+    }
+  }
+
+  // .banner{
+  //   display: block;
+  //   position: relative;
+  //
+  //   img{
+  //     height: 25em;
+  //     object-fit: none;
+  //     object-position: 50% 90%;
+  //   }
+  //
+  //   p{
+  //     color: $color1;
+  //     position: absolute;
+  //     bottom: 0;
+  //     padding-bottom: 2.5%;
+  //   }
+  // }
+
+  img{
+    filter: drop-shadow(0 0 0.5em $color1);
+    margin: 1.5% 0;
+
+    &:hover{
+      opacity: 75%;
+      object-fit: cover;
+    }
+  }
+
+  .intro{
+    color: $color1;
+
+    p{
+      line-height: 2em;
+    }
+
+  }
+
+  .toc{
+    color: $color1;
+    margin-top: 1.5%;
+    ol{
+      li{
+        a{
+
+          &:hover{
+            color: #000;
+          }
+        }
+      }
+    }
+  }
+
+  .research{
+    color: $color2;
+
+    h4{
+      border-left: 5px $color2 solid;
+    }
+
+    a{
+      color: $color2;
+    }
+
+}
+
+.brainstorming{
+  color: $color3;
+
+  h4{
+    border-left: 5px $color3 solid;
+  }
+
+  a{
+    color: $color3;
+  }
+
+  img{
+    filter: drop-shadow(0 0 0.5em $color3);
+    margin: 1.5% 0;
+  }
+
+}
+
+.dev{
+  color: $color4;
+
+  h4{
+    border-left: 5px $color4 solid;
+  }
+
+  a{
+    color: $color4;
+  }
+
+  img{
+    filter: drop-shadow(0 0 0.5em $color4);
+    margin: 1.5% 0;
+  }
+
+}
+
+.concept{
+  color: $color5;
+
+  h4{
+    border-left: 5px $color5 solid;
+  }
+
+  a{
+    color: $color5;
+  }
+
+  img{
+    filter: drop-shadow(0 0 0.5em $color5);
+    margin: 1.5% 0;
+  }
+
+}
+
+.proto{
+  color: $color6;
+
+  h4{
+    border-left: 5px $color6 solid;
+  }
+
+  a{
+    color: $color6;
+  }
+
+  img{
+    filter: drop-shadow(0 0 0.5em $color6);
+    margin: 1.5% 0;
+  }
+
+}
+
+.user{
+  color: $color7;
+
+  h4{
+    border-left: 5px $color7 solid;
+  }
+
+  a{
+    color: $color7;
+  }
+
+  img{
+    filter: drop-shadow(0 0 0.5em $color7);
+    margin: 1.5% 0;
+  }
+
+}
+
+.eval{
+  color: $color8;
+
+  h4{
+    border-left: 5px $color8 solid;
+  }
+
+  a{
+    color: $color8;
+  }
+
+  img{
+    filter: drop-shadow(0 0 0.5em $color8);
+    margin: 1.5% 0;
+  }
+
+}
+
+.final{
+  color: $color1;
+
+  h4{
+    border-left: 5px $color1 solid;
+  }
+
+  a{
+    color: $color1;
+  }
+
+  img{
+    filter: drop-shadow(0 0 0.5em $color1);
+    margin: 1.5% 0;
+  }
+
+}
+
+  .gallery{
+    a{
+      display: block;
+
+      img{
+        display: block;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    }
+  }
