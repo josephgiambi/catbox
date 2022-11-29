@@ -23,7 +23,7 @@ $color2: #9d94ff;
 $color3: #59adf6;
 $color4: #08cad1;
 $color5: #42d6a4;
-$color6: #f8f38d;
+$color6: #FDDA0D;
 $color7: #ffb480;
 $color8: #ff6961;
 
@@ -229,6 +229,11 @@ body{
     border-left: 5px $color5 solid;
   }
 
+  h5{
+    color: #000;
+    font-weight: bold;
+  }
+
   a{
     color: $color5;
   }
@@ -274,6 +279,11 @@ body{
     margin: 1.5% 0;
   }
 
+  video{
+    filter: drop-shadow(0 0 0.5em $color7);
+    margin: 1.5% 0;
+  }
+
 }
 
 .eval{
@@ -305,6 +315,11 @@ body{
     color: $color1;
   }
 
+  img{
+    filter: drop-shadow(0 0 0.5em $color1);
+    margin: 1.5% 0;
+  }
+
 }
 
   .gallery{
@@ -320,5 +335,11 @@ body{
         height: 10em;
       }
     }
+    }
+
+    .top{
+      display: block;
+      color: $color1 !important;
+      padding-bottom: 5em !important;
     }
   }
