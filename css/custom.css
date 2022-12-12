@@ -1,1 +1,159 @@
-body{font-family:century-gothic, sans-serif;font-weight:400;font-style:normal;font-size:18px;background-color:#fff;background-color:#fffdf5;background-image:linear-gradient(rgba(120,132,73,0.0627451) 1.5px, transparent 1.5px),linear-gradient(to right, rgba(120,132,73,0.0627451) 1.5px, #fffdf5 1.5px);background-size:30px 30px;background-attachment:fixed;height:100vh}body h1{font-weight:700;color:#a5ad80;font-size:5.5em}body h2{color:#788449;font-size:1em;font-weight:700}body h3{border-bottom:5px #a5ad80 dashed;padding-top:1em;padding-bottom:.5em;color:#788449;line-height:1em;font-weight:700;font-size:2em;margin-top:.5em;margin-bottom:.75em}body h4{color:#788449;border-left:5px #788449 solid;padding-left:.5em;margin-top:1.5em;margin-bottom:1em}body p{font-size:1em;color:#000;line-height:2em;margin-bottom:2.5%}body .header{margin-top:1em;margin-bottom:1em}body .header .names{color:#a5ad80;font-size:1em;font-weight:700;margin-top:1em;padding-left:0}body .header .names li{list-style:none}body .header .names li.made{color:#788449}body .intro{color:#788449}body .intro p{line-height:2em}body .toc{margin-top:1.5em}body .toc ol{color:#788449}body .toc ol li{margin-top:.25em}body .toc ol li a{color:#788449}body .toc ol li a:hover{color:#000}body .gallery a{display:block;padding-bottom:2.5%}body .gallery a img{display:block;height:100%;width:100%;object-fit:cover;height:10em;filter:drop-shadow(0 0 0.5em #a5ad80);margin:1.5% 0}body .gallery a img:hover{opacity:75%;object-fit:cover}body .gallery a video{display:block;height:100%;width:100%;object-fit:cover;height:10em;filter:drop-shadow(0 0 0.5em #a5ad80);margin:1.5% 0}body .gallery a video:hover{opacity:75%;object-fit:cover}
+/* line 27, ../../../../../Users/josephgiambi/Documents/Cat Box Code/catbox/sass/custom.scss */
+body {
+  font-family: century-gothic, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  background-color: #fff;
+  background-color: #fffdf5;
+  background-image: linear-gradient(#78844910 1.5px, transparent 1.5px), linear-gradient(to right, #78844910 1.5px, #fffdf5 1.5px);
+  background-size: 30px 30px;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+/* line 39, ../../../../../Users/josephgiambi/Documents/Cat Box Code/catbox/sass/custom.scss */
+body h1 {
+  font-weight: 700;
+  color: #a5ad80;
+  font-size: 5.5em;
+}
+
+/* line 45, ../../../../../Users/josephgiambi/Documents/Cat Box Code/catbox/sass/custom.scss */
+body h2 {
+  color: #788449;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+/* line 51, ../../../../../Users/josephgiambi/Documents/Cat Box Code/catbox/sass/custom.scss */
+body h3 {
+  border-bottom: 5px #a5ad80 dashed;
+  padding-top: 1em;
+  padding-bottom: .5em;
+  color: #788449;
+  line-height: 1em;
+  font-weight: 700;
+  font-size: 2em;
+  margin-top: .5em;
+  margin-bottom: .75em;
+}
+
+/* line 63, ../../../../../Users/josephgiambi/Documents/Cat Box Code/catbox/sass/custom.scss */
+body h4 {
+  color: #788449;
+  border-left: 5px #788449 solid;
+  padding-left: .5em;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+/* line 71, ../../../../../Users/josephgiambi/Documents/Cat Box Code/catbox/sass/custom.scss */
+body p {
+  font-size: 1em;
+  color: #000;
+  line-height: 2em;
+  margin-bottom: 2.5%;
+}
+
+/* line 78, ../../../../../Users/josephgiambi/Documents/Cat Box Code/catbox/sass/custom.scss */
+body .header {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* line 82, ../../../../../Users/josephgiambi/Documents/Cat Box Code/catbox/sass/custom.scss */
+body .header .names {
+  color: #a5ad80;
+  font-size: 1em;
+  font-weight: 700;
+  margin-top: 1em;
+  padding-left: 0;
+}
+
+/* line 88, ../../../../../Users/josephgiambi/Documents/Cat Box Code/catbox/sass/custom.scss */
+body .header .names li {
+  list-style: none;
+}
+
+/* line 91, ../../../../../Users/josephgiambi/Documents/Cat Box Code/catbox/sass/custom.scss */
+body .header .names li.made {
+  color: #788449;
+}
+
+/* line 98, ../../../../../Users/josephgiambi/Documents/Cat Box Code/catbox/sass/custom.scss */
+body .intro {
+  color: #788449;
+}
+
+/* line 101, ../../../../../Users/josephgiambi/Documents/Cat Box Code/catbox/sass/custom.scss */
+body .intro p {
+  line-height: 2em;
+}
+
+/* line 107, ../../../../../Users/josephgiambi/Documents/Cat Box Code/catbox/sass/custom.scss */
+body .toc {
+  margin-top: 1.5em;
+}
+
+/* line 109, ../../../../../Users/josephgiambi/Documents/Cat Box Code/catbox/sass/custom.scss */
+body .toc ol {
+  color: #788449;
+}
+
+/* line 111, ../../../../../Users/josephgiambi/Documents/Cat Box Code/catbox/sass/custom.scss */
+body .toc ol li {
+  margin-top: .25em;
+}
+
+/* line 113, ../../../../../Users/josephgiambi/Documents/Cat Box Code/catbox/sass/custom.scss */
+body .toc ol li a {
+  color: #788449;
+}
+
+/* line 115, ../../../../../Users/josephgiambi/Documents/Cat Box Code/catbox/sass/custom.scss */
+body .toc ol li a:hover {
+  color: #000;
+}
+
+/* line 124, ../../../../../Users/josephgiambi/Documents/Cat Box Code/catbox/sass/custom.scss */
+body .gallery a {
+  display: block;
+  padding-bottom: 2.5%;
+}
+
+/* line 128, ../../../../../Users/josephgiambi/Documents/Cat Box Code/catbox/sass/custom.scss */
+body .gallery a img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  height: 10em;
+  filter: drop-shadow(0 0 0.5em #a5ad80);
+  margin: 1.5% 0;
+}
+
+/* line 138, ../../../../../Users/josephgiambi/Documents/Cat Box Code/catbox/sass/custom.scss */
+body .gallery a img:hover {
+  opacity: 75%;
+  object-fit: cover;
+}
+
+/* line 143, ../../../../../Users/josephgiambi/Documents/Cat Box Code/catbox/sass/custom.scss */
+body .gallery a video {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  height: 10em;
+  filter: drop-shadow(0 0 0.5em #a5ad80);
+  margin: 1.5% 0;
+}
+
+/* line 153, ../../../../../Users/josephgiambi/Documents/Cat Box Code/catbox/sass/custom.scss */
+body .gallery a video:hover {
+  opacity: 75%;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=custom.css.map */
