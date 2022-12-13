@@ -158,4 +158,18 @@ body{
     }
     }
 
+      .top{
+        color: $color2;
+        h3{
+          color: $color2;
+          &:hover{
+            color: #000;
+          }
+        }
+
+        &:hover{
+          color: #000;
+        }
+      }
+
 }

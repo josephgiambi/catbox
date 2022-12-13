@@ -156,4 +156,24 @@ body .gallery a video:hover {
   object-fit: cover;
 }
 
+/* line 161, ../../../../../Users/josephgiambi/Documents/Cat Box Code/catbox/sass/custom.scss */
+body .top {
+  color: #a5ad80;
+}
+
+/* line 163, ../../../../../Users/josephgiambi/Documents/Cat Box Code/catbox/sass/custom.scss */
+body .top h3 {
+  color: #a5ad80;
+}
+
+/* line 165, ../../../../../Users/josephgiambi/Documents/Cat Box Code/catbox/sass/custom.scss */
+body .top h3:hover {
+  color: #000;
+}
+
+/* line 170, ../../../../../Users/josephgiambi/Documents/Cat Box Code/catbox/sass/custom.scss */
+body .top:hover {
+  color: #000;
+}
+
 /*# sourceMappingURL=custom.css.map */
